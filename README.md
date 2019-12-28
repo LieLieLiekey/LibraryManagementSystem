@@ -44,3 +44,5 @@
 6. JTextFiled 文本信息填写格
 
 7. JTable  一个表格，有表头和信息域，接受一个二维数组和一个一维的表头数组
+
+8. JFileChooser 一个选择文件GUI的类，可以用getSelectedFile方法获取选中的File，并用File的getAbsolutePath函数获取绝对路径。
