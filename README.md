@@ -33,5 +33,17 @@
 和其他同学的对比自己的做的确实不咋滴，第一个大课设，纪念下~
 
 ------- 分割线-----
+从中学到了很多，之前制作过一些简单的GUI界面的游戏，比如之前的扫雷，但是还有许多Swing的控件没有学习，包括但不限于
+1. JDesktopPane 像桌面一样，可以放置很多JInternalFrame，设置桌面背景等。 
 
-从中学到了很多，之前制作过一些简单的GUI界面的游戏，比如之前的扫雷，但是还有许多Swing的控件没有学习，包括但不限于JTable、JScrollPane、JComboBox、JTextFiled、JInternalFrame、JTabbedPane。
+2. JInternalFrame 轻量级Frame，可以添加到JDesktopPane中
+
+3. JTabbedPane 提供选项卡界面（就像浏览器的那样）
+
+4. JComboBox  下拉列表组合的组件
+
+5. JScrollPane   提供轻量级的scrollable 视图。
+
+6. JTextFiled 文本信息填写格
+
+7. JTable  一个表格，有表头和信息域，接受一个二维数组和一个一维的表头数组
