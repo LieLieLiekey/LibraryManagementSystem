@@ -58,7 +58,7 @@ public class Dao {
 	}
 	
 	//--------------------数据库操作模块---------------------------//
-	// 创建数据库查询
+	// 1
 	public static ResultSet findForResultSet(String sql) {  
         if (conn == null)  
             return null;
@@ -133,7 +133,7 @@ public class Dao {
 		if (rs.next()) {
 			ret.setName(rs.getString("Mname").trim());
 			ret.setPassword(rs.getString("Mpassword").trim());
-		}
+		}	
 		return ret;
 	}
 	
@@ -583,7 +583,7 @@ public class Dao {
 	
 	//---------------------删除信息模块----------------------------//
 	// 删除管理员信息
-	public static boolean deleteManager (Item item) {
+	public static boolean shix (Item item) {
 		String sql = "delete from Manager where Mname = '" + item.getId() + 
 						"' and Mpassword = '" + item.getName() + "'";
 		if (!delete(sql)) {

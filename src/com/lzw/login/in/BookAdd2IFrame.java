@@ -91,6 +91,7 @@ public class BookAdd2IFrame extends JInternalFrame{
 	//创建保存按钮监听内部类
 	class ButtonAddListener implements ActionListener {
 		ButtonAddListener(JRadioButton button1) {
+		
 		}
 
 		public void actionPerformed(final ActionEvent e) {

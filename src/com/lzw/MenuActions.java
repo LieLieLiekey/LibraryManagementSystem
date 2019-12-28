@@ -23,7 +23,6 @@ public class MenuActions {
 	public static BookAddAction BOOK_ADD;					//图书信息添加窗体动作
 	public static BookAdd2Action BOOK_ADD2;                 //已有图书信息添加
 	public static BookPriceAction BOOK_PRICE;               //图书价格修改
-	
 	//借阅表操作
 	public static BorrowAction BORROW;						//图书借阅窗体动作
 	public static ReturnAction RETURN;                      //图书归还窗体动作

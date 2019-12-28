@@ -67,7 +67,7 @@ public class MainDialog extends JFrame {
 			public void componentResized(final ComponentEvent e) {
 				Dimension size = e.getComponent().getSize();
 				label.setSize(size);
-				ImageIcon loginIcon = CreateIcon.add("back.jpg");
+				ImageIcon loginIcon = CreateIcon.add("nyist.jpg");
 				label.setIcon(loginIcon);
 				label.setOpaque(true); // 在部件的所有像素上绘制
 				label.setBackground(Color.white);
